@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 360px;
+    height: 350px;
+
+}
+.container .quadrado.vermelho{
+background-color: #f35321;
+}
+
+.container .quadrado.verde{
+background-color: #89dc05;
+}
+
+.container .quadrado.azul{
+background-color: #05a5f2;
+}
+
+.container .quadrado.amarelo{
+background-color: #ffaa15;
+}
+.quadrado{
+    width: 150px;
+    height: 150px;
+    margin: 0 10px 10px 0;
+    float: left;
+}
